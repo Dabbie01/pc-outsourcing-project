@@ -61,10 +61,10 @@
 
 <style>
   .bg-img-1{
-    background-image: url("./img/1.jpg");
+    background-image: url("~@/assets/business1.jpg");
   }
   .bg-img-2{
-    background-image: url("./img/3.jpg");
+    background-image: url("~@/assets/business3.jpg");
   }
   #main-slide .item {
     min-height: 700px;

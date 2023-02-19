@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-md-4 text-center item-wrap">
             <figure class="wrap">
-              <img src="./img/team1.jpg" alt="">
+              <img src="~@/assets/team1.jpg" alt="">
               <figcaption>
                 <h3>这里是成员姓名</h3>
                 <p>这里是成员的介绍这里是成员的介绍这里是成员的介绍这里是成员的介绍</p>
@@ -22,7 +22,7 @@
           </div>
           <div class="col-md-4 text-center item-wrap">
             <figure class="wrap">
-              <img src="./img/team2.jpg" alt="">
+              <img src="~@/assets/team2.jpg" alt="">
               <figcaption>
                 <h3>这里是成员姓名</h3>
                 <p>这里是成员的介绍这里是成员的介绍这里是成员的介绍这里是成员的介绍</p>
@@ -34,7 +34,7 @@
           </div>
           <div class="col-md-4 text-center item-wrap">
             <figure class="wrap">
-              <img src="./img/team3.jpg" alt="">
+              <img src="~@/assets/team3.jpg" alt="">
               <figcaption>
                 <h3>这里是成员姓名</h3>
                 <p>这里是成员的介绍这里是成员的介绍这里是成员的介绍这里是成员的介绍</p>
@@ -46,7 +46,7 @@
           </div>
           <div class="col-md-4 text-center item-wrap">
             <figure class="wrap">
-              <img src="./img/team1.jpg" alt="">
+              <img src="~@/assets/team1.jpg" alt="">
               <figcaption>
                 <h3>这里是成员姓名</h3>
                 <p>这里是成员的介绍这里是成员的介绍这里是成员的介绍这里是成员的介绍</p>
@@ -58,7 +58,7 @@
           </div>
           <div class="col-md-4 text-center item-wrap">
             <figure class="wrap">
-              <img src="./img/team2.jpg" alt="">
+              <img src="~@/assets/team2.jpg" alt="">
               <figcaption>
                 <h3>这里是成员姓名</h3>
                 <p>这里是成员的介绍这里是成员的介绍这里是成员的介绍这里是成员的介绍</p>

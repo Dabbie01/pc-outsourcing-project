@@ -30,7 +30,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4 hidden-sm hidden-xs left wow fadeInUp" data-wow-delay=".2s"><img alt="" style="width: 100%" src="./images/m4.png"></div>
+          <div class="col-md-4 hidden-sm hidden-xs left wow fadeInUp" data-wow-delay=".2s"><img alt="" style="width: 100%" src="~@/assets/medical.png"></div>
           <!-- end left -->
           <div class="col-md-4 col-sm-6 right wow fadeInUp" data-wow-delay=".3s">
             <ul class="section three">

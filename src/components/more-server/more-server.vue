@@ -59,7 +59,7 @@
   }
 
   .section3-background {
-    background: #333333 url(./img/m3.jpg) no-repeat center;
+    background: #333333 url(~@/assets/more-server.jpg) no-repeat center;
     background-size: cover;
   }
 

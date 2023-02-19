@@ -1,8 +1,16 @@
+<!--
+ * @Author: Dabbie 2310734576@qq.com
+ * @Date: 2017-05-08 09:23:18
+ * @LastEditors: Dabbie 2310734576@qq.com
+ * @LastEditTime: 2023-02-19 17:54:40
+ * @FilePath: \vue-xhc-master\src\components\aboutxhc\aboutxhc-head\aboutxhc-head.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
   <div>
     <section id="home">
       <div class="logo-wrapper" style="background-color: rgba(255,255,255,0.3);position: absolute;left: 40px;top: 40px;padding: 10px;">
-        <img src="img/logo.png" alt="" style="width:80px;height: 60px">
+        <img src="~@/assets/gowhere.png" alt="" style="width:80px;height: 60px">
       </div>
       <div class="container">
         <div class="row">
@@ -32,7 +40,7 @@
   #home{
     width: 100%;
     height: 100vh;
-    background: url('./img/home.jpg') no-repeat 50% 20% fixed;
+    background: url('~@/assets/home.jpg') no-repeat 50% 20% fixed;
     position: relative;
     color:white;
     display: flex;

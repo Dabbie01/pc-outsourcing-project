@@ -1,3 +1,11 @@
+<!--
+ * @Author: Dabbie 2310734576@qq.com
+ * @Date: 2017-05-08 09:23:18
+ * @LastEditors: Dabbie 2310734576@qq.com
+ * @LastEditTime: 2023-02-19 18:07:48
+ * @FilePath: \vue-xhc-master\src\components\institution\institution.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
   <div>
     <div class="banner-bottom">
@@ -48,7 +56,7 @@
   /*--gallery--*/
   .gallery-left{
     min-height: 600px;
-    background: url(./images/img1.jpg)no-repeat 50% 50%;
+    background: url(~@/assets/business4.jpg)no-repeat 50% 50%;
     background-size: cover;
     padding: 14% 0;
   }
@@ -58,13 +66,13 @@
   .gallery-grid-a{
     line-height: 300px;
     min-height: 300px;
-    background: url(./images/img2.jpg)no-repeat 50% 50%;
+    background: url(~@/assets/business5.jpg)no-repeat 50% 50%;
     background-size: cover;
     padding: 10% 0;
   }
   .gallery-grid-b{
     min-height: 300px;
-    background: url(./images/img3.jpg)no-repeat 50% 50%;
+    background: url(~@/assets/business6.jpg)no-repeat 50% 50%;
     background-size: cover;
     padding: 10% 0;
   }

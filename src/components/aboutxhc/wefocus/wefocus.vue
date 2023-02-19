@@ -20,7 +20,7 @@
   /*block start*/
   #block {
     text-align: center;
-    background: url("./img/block.png") no-repeat 20% 0% fixed;
+    background: url("~@/assets/block.png") no-repeat 20% 0% fixed;
   }
   #block h2{
     padding:80px 40px;

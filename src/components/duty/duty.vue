@@ -108,6 +108,6 @@
   }
 
   #duty{
-    background: url('./img/duty-bg.jpg') no-repeat 50% 50% fixed;
+    background: url('~@/assets/duty-bg.jpg') no-repeat 50% 50% fixed;
   }
 </style>
