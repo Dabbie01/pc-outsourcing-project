@@ -10,10 +10,10 @@
 
 <script type="text/ecmascript-6">
   import vhead from './aboutxhc-head/aboutxhc-head.vue'
-  import knowxhc from '../know_xhc/know_xhc.vue'
-  import wefocus from '../wefocus/wefocus.vue'
-  import team from '../team/team.vue'
-  import field from '../focus_area/focus_area.vue'
+  import knowxhc from './know-xhc/know-xhc.vue'
+  import wefocus from './wefocus/wefocus.vue'
+  import team from './team/team.vue'
+  import field from './focus-area/focus-area.vue'
 
   export default {
     components: {
