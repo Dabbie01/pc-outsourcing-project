@@ -2,7 +2,7 @@
   "name": "xinhecheng",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "dudu <1390851423@qq.com>",
+  "author": "Dabbie",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
