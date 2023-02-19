@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import business from '../components/bussiness_platform/bussiness_platform.vue'
-import developing from '../components/developing/developing.vue'
+import Hello from '@/views/Hello/Hello'
+import business from '@/views/Business/bussiness_platform.vue'
+import developing from '@/views/Developing/developing.vue'
 
 Vue.use(Router)
 

@@ -1,16 +1,16 @@
 <template>
   <div class="hello">
-    <navmanu></navmanu>
+    <navmenu></navmenu>
     <aboutxhc></aboutxhc>
   </div>
 </template>
 
 <script>
-  import aboutxhc from './aboutxhc/aboutxhc.vue'
-  import navmanu from './navManu/navmanu.vue'
+  import aboutxhc from '@/components/aboutxhc/aboutxhc.vue'
+  import navmenu from '@/components/navMenu/navmenu.vue'
   export default {
     components: {
-      navmanu,
+      navmenu,
       aboutxhc
     },
     name: 'hello',

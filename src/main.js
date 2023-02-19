@@ -1,8 +1,8 @@
 /*
  * @Author: Dabbie 2310734576@qq.com
- * @Date: 2017-05-08 09:23:18
+ * @Date: 2022-05-08 09:23:18
  * @LastEditors: Dabbie 2310734576@qq.com
- * @LastEditTime: 2023-02-17 14:56:17
+ * @LastEditTime: 2023-02-19 16:10:23
  * @FilePath: \vue-xhc-master\src\main.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
