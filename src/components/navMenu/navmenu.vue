@@ -2,13 +2,13 @@
  * @Author: Dabbie 2310734576@qq.com
  * @Date: 2022-05-08 09:23:18
  * @LastEditors: Dabbie 2310734576@qq.com
- * @LastEditTime: 2023-02-20 15:34:09
+ * @LastEditTime: 2023-02-20 15:48:16
  * @FilePath: \vue-xhc-master\src\components\navMenu\navmenu.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 <template>
   <div>
-     <el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" unique-opened="true">
+     <el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" unique-opened="true">
           <el-submenu index="1" class="nav-item">
             <template slot="title">标题三</template>
             <el-menu-item index="1-1">选项1</el-menu-item>
