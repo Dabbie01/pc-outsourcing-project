@@ -1,11 +1,17 @@
+<!--
+ * @Author: Dabbie 2310734576@qq.com
+ * @Date: 2023-02-19 17:44:57
+ * @LastEditors: Dabbie 2310734576@qq.com
+ * @LastEditTime: 2023-02-21 15:43:40
+ * @FilePath: \vue-xhc-master\src\components\aboutxhc\focus-area\focus-area.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
-  <div>
     <div id="field">
-      <div class="container">
-        <div class="row">
+        <div>
           <h2 class="little-title">聚焦领域</h2>
-          <div class="divider"></div>
-          <p class="description-text">基于高效研发的创新是新合诚重要的增长引擎，我们的团队不断研发创新工艺，追求可持续发展的未来。我们基于生化以及医疗领域的解决方案几乎涵盖整个领域，这也是我们希冀长期成功的要素。</p>
+          <hr>
+          <p class="description-text" style="font-size:20px;text-align:left">基于高效研发的创新是新合诚重要的增长引擎，我们的团队不断研发创新工艺，追求可持续发展的未来。我们基于生化以及医疗领域的解决方案几乎涵盖整个领域，这也是我们希冀长期成功的要素。</p>
         </div>
         <div class="row">
           <div class="col-md-4 col-sm-12 box">
@@ -32,20 +38,23 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
 </template>
 
-<script type="text/ecmascript-6">
+<script>
   export default {}
 </script>
 
-<style>
+<style scoped>
   /*#field start*/
   #field {
     text-align: center;
+    padding: 0 60px;
   }
 
+  #field hr {
+    margin: 10px auto 40px;
+    width: 800px;
+  }
   #field .box{
     text-align: center;
     padding:50px;
