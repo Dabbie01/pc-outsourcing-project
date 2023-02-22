@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="slider" class="">
+    <section id="slider">
       <!-- Carousel -->
       <div id="main-slide" class="carousel slide" data-ride="carousel">
 
