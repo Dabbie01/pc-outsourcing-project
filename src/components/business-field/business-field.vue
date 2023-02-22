@@ -1,36 +1,44 @@
+<!--
+ * @Author: Dabbie 2310734576@qq.com
+ * @Date: 2022-05-08 09:23:18
+ * @LastEditors: Dabbie 2310734576@qq.com
+ * @LastEditTime: 2023-02-22 19:19:26
+ * @FilePath: \vue-xhc-master\src\components\business-field\business-field.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
   <div>
     <section id="section1" class="section-margine">
       <h2 class="little-title">业务范围</h2>
-      <div class="divider"></div>
+      <hr>
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6">
-            <div class="section-1-box wow bounceIn">
+            <div class="section-1-box">
               <div class="section-1-box-icon-background"><i class="fa fa-ambulance fa-2x"></i></div>
-              <h4 class="text-center">多糖抗原及疫苗制剂</h4>
-              <p class="text-center">专注于癌症、传染病的诊断预防及治疗</p>
+              <h4>多糖抗原及疫苗制剂</h4>
+              <p style="text-align:left">专注于癌症、传染病的诊断预防及治疗</p>
             </div>
           </div>
           <div class="col-md-3  col-sm-6">
-            <div class="section-1-box wow bounceIn" data-wow-delay=".1s">
+            <div class="section-1-box">
               <div class="section-1-box-icon-background"><i class="fa fa-user-md fa-2x"></i></div>
-              <h4 class="text-center">糖蛋白糖肽偶联技术</h4>
-              <p class="text-center">可用于新型结合疫苗及其它功能糖蛋白的制备</p>
+              <h4>糖蛋白糖肽偶联技术</h4>
+              <p style="text-align:left">可用于新型结合疫苗及其它功能糖蛋白的制备</p>
             </div>
           </div>
           <div class="col-md-3  col-sm-6">
-            <div class="section-1-box wow bounceIn" data-wow-delay=".2s">
+            <div class="section-1-box">
               <div class="section-1-box-icon-background"><i class="fa fa-h-square fa-2x"></i></div>
-              <h4 class="text-center">高纯度低分子肝素钠制备</h4>
-              <p class="text-center">用于抗血栓、心血管疾病、抑制癌症、细胞治愈等治疗方案，及食品检测跨行业应用</p>
+              <h4>高纯度低分子肝素钠制备</h4>
+              <p style="text-align:left">可用于抗血栓、心血管疾病、抑制癌症、细胞治愈等治疗方案，以及食品检测跨行业应用</p>
             </div>
           </div>
           <div class="col-md-3  col-sm-6">
-            <div class="section-1-box wow bounceIn" data-wow-delay=".3s">
+            <div class="section-1-box">
               <div class="section-1-box-icon-background"><i class="fa fa fa-heartbeat fa-2x"></i></div>
-              <h4 class="text-center">小分子糖类药物制备技术</h4>
-              <p class="text-center">运用于传染病，肿瘤的治疗及慢病管理</p>
+              <h4>小分子糖类药物制备技术</h4>
+              <p style="text-align:left">运用于传染病，肿瘤的治疗及慢病管理</p>
             </div>
           </div>
         </div>
@@ -39,15 +47,18 @@
   </div>
 </template>
 
-<script type="text/ecmascript-6">
+<script>
   export default {}
 </script>
 
-<style>
-
+<style scoped>
   .section-margine {
-    margin: 70px 0 0 0;
+    margin: 40px 0 0 0;
     text-align: center;
+  }
+  .section-margine hr {
+    margin: 10px auto 40px;
+    width: 800px;
   }
   .section-1-box {
     padding: 20px 0;
