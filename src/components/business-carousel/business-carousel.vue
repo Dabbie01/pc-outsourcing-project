@@ -39,7 +39,7 @@
                 </p>
               </div>
             </div>
-          </div><!--/ Carousel item 3 end -->
+          </div><!--/ Carousel item 2 end -->
 
         </div><!-- Carousel inner end-->
 
@@ -55,11 +55,11 @@
   </div>
 </template>
 
-<script type="text/ecmascript-6">
+<script>
   export default {}
 </script>
 
-<style>
+<style scoped>
   .bg-img-1{
     background-image: url("~@/assets/business1.jpg");
   }
@@ -67,16 +67,11 @@
     background-image: url("~@/assets/business3.jpg");
   }
   #main-slide .item {
-    min-height: 700px;
+    min-height: 800px;
     color: #fff;
     background-position: 50% 50%;
     -webkit-background-size: cover;
     background-size: cover;
-    -webkit-backface-visibility: hidden;
-  }
-
-  #main-slide .item img {
-    width: 100%;
     -webkit-backface-visibility: hidden;
   }
 
@@ -109,9 +104,11 @@
 
   #main-slide .slider-content.text-left {
     left: 10%;
+    top: 60%;
   }
 
   #main-slide .slider-content.text-right {
+    top: 60%;
     right: 10%;
   }
 
@@ -131,22 +128,6 @@
     margin: 15px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: 'qinghei';
-  }
-
-  .little-title{
-    padding: 10px;
-    font-family: 'qingke';
-    font-weight: bold;
-  }
-
-  .divider{
-    width: 10%;
-    background-color: grey;
-    height: 1px;
-    display: inline-block;
-    margin-bottom: 40px;
-    display: inline-block;
   }
 
   .slide-sub-title {
@@ -160,60 +141,18 @@
     font-family: 'qinghei';
   }
 
-  .slider-text {
-    display: table;
-    vertical-align: bottom;
-    color: #fff;
-    padding-left: 40%;
-    width: 100%;
-    padding-bottom: 0;
-    padding-top: 20px;
-  }
-
-  .slider-text .slide-head {
-    font-size: 36px;
-    color: #0052a5;
-    position: relative;
-  }
-
-  .slider-img {
-    display: block;
-    position: absolute;
-    top: -80px;
-    left: 20%;
-    width: 314px;
-    max-height: 100%;
-  }
-
-  .slider-img img {
-    display: block;
-    position: relative;
-    max-height: 100%;
-    width: auto;
-  }
 
   .slider.btn {
     margin: 5px;
     border: 2px solid transparent;
   }
 
-  .slider.border {
-    background: none;
-    border: 2px solid #fff;
-  }
-
-  .slider.border:hover {
-    background: #00AEF0;
-    border: 2px solid transparent;
-  }
-
-
   /* Carousel control */
 
   .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    margin: 1px;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
     border-radius: 100%;
     border: 0;
     background: rgba(255, 255, 255, .5);
@@ -298,16 +237,6 @@
   .carousel .item.active .effect3 {
     -webkit-animation: fadeInLeft 1.5s ease-in-out 300ms both;
     animation: fadeInLeft 1.5s ease-in-out 300ms both;
-  }
-
-  .carousel .item.active .effect4 {
-    -webkit-animation: lightSpeedIn 1.5s ease-in 300ms both;
-    animation: lightSpeedIn 1.5s ease-in 300ms both;
-  }
-
-  .carousel .item.active .effect5 {
-    -webkit-animation: bounceInLeft 1s ease-in-out 100ms both;
-    animation: bounceInLeft 1s ease-in-out 100ms both;
   }
 
   .carousel .item.active .effect6 {
