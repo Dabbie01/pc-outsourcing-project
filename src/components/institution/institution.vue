@@ -1,24 +1,22 @@
 <!--
  * @Author: Dabbie 2310734576@qq.com
- * @Date: 2017-05-08 09:23:18
+ * @Date: 2022-05-08 09:23:18
  * @LastEditors: Dabbie 2310734576@qq.com
- * @LastEditTime: 2023-02-19 18:07:48
+ * @LastEditTime: 2023-02-24 19:07:32
  * @FilePath: \vue-xhc-master\src\components\institution\institution.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 <template>
   <div>
     <div class="banner-bottom">
-      <div class="container">
         <h2 class="little-title">新合诚研究院</h2>
-        <div class="divider"></div>
+        <hr>
         <p class="description-text">新合诚研究院重点激励下一代创新者，通过持续资助科技创新，不断将世界级的科技带入医疗事业。</p>
         <a href="#gallery" class="arrow scroll fa fa-arrow-down"> </a>
-      </div>
     </div>
     <!--//banner-bottom-->
     <!--gallery-->
-    <div class="gallery" id="gallery">
+    <div class="gallery clearfix" id="gallery">
       <div class="col-md-6 gallery-left">
         <h4>协同区域高校合作</h4>
         <h4>共建研发实践岗位</h4>
@@ -33,30 +31,31 @@
           <h4>共建研发实践岗位</h4>
         </div>
       </div>
-      <div class="clearfix"> </div>
     </div>
     <!--//gallery-->
   </div>
 </template>
 
-<script type="text/ecmascript-6">
+<script>
   export default {}
 </script>
 
-<style>
+<style scoped>
   .banner-bottom{
-    padding-top: 50px;
-    text-align: center;
+    padding-top: 40px;
+  }
+  .banner-bottom hr {
+    margin: 10px auto 40px;
+    width: 800px;
   }
   .description-text{
     font-size: 16px;
-    font-family: 'Microsoft YaHei UI';
   }
 
   /*--gallery--*/
   .gallery-left{
     min-height: 600px;
-    background: url(~@/assets/business4.jpg)no-repeat 50% 50%;
+    background: url(~@/assets/business4.jpg) no-repeat 50% 50%;
     background-size: cover;
     padding: 14% 0;
   }
@@ -79,27 +78,16 @@
   .gallery h4 {
     font-size: 20px;
     text-align: center;
-    font-family: 'Marvel-Regular';
     color: #fff;
-    padding: 20px 0px;
-  }
-  .gallery p {
-    color: #fff;
-    text-align: center;
-    width: 45%;
-    margin: 0 auto;
-    font-size: 1em;
-    font-weight: 300;
-    letter-spacing: 1px;
+    padding: 15px 0px;
   }
   /*--//gallery--*/
   /*--work--*/
   .banner-bottom a {
     font-size: 40px;
     display: block;
-    width: 64px;
-    height: 35px;
-    margin: 2em auto 0;
-    margin-bottom: 50px;
+    width: 60px;
+    height: 20px;
+    margin: 50px auto;
   }
 </style>
